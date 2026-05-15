@@ -18,10 +18,12 @@ namespace hospital_f
         {
             Console.WriteLine("INFORMAÇOES PESSOAL");
 
-            Console.WriteLine("Por Favor Digite Seu Nome: ");
+            Console.WriteLine("Por Favor Digite Nome do PACIENTE: ");
+            this.nome = Console.ReadLine();
+            Console.WriteLine("Por Favor Digite ACOMPANHANTE (opcional): ");
             this.nome = Console.ReadLine();
 
-         
+
             while (true)
             {
                 Console.WriteLine("Por Favor Digite CPF: ");
