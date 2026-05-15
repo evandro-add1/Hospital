@@ -1,0 +1,7 @@
+C:\Users\evand\source\repos\hospital_f\hospital_f\bin\Debug\hospital_f.exe.config
+C:\Users\evand\source\repos\hospital_f\hospital_f\bin\Debug\hospital_f.exe
+C:\Users\evand\source\repos\hospital_f\hospital_f\bin\Debug\hospital_f.pdb
+C:\Users\evand\source\repos\hospital_f\hospital_f\obj\Debug\hospital_f.csproj.AssemblyReference.cache
+C:\Users\evand\source\repos\hospital_f\hospital_f\obj\Debug\hospital_f.csproj.CoreCompileInputs.cache
+C:\Users\evand\source\repos\hospital_f\hospital_f\obj\Debug\hospital_f.exe
+C:\Users\evand\source\repos\hospital_f\hospital_f\obj\Debug\hospital_f.pdb
