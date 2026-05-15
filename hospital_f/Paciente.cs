@@ -13,6 +13,7 @@ namespace hospital_f
         public string telefone;
         public string email;
         private string cpf;
+        public string descricao;
 
         public void cadastrarP()
         {
@@ -58,6 +59,21 @@ namespace hospital_f
                 if (valido) { break; }
                 Console.WriteLine("Email iválido! Precisa ter @.");
             }
+
+            bool continuar = true;
+            while (continuar)
+            {
+                Console.WriteLine("Descreva o(a) paciente");
+                descricao = Console.ReadLine();
+                if (!string.IsNullOrEmpty(descricao))
+                {
+                    continuar = false;
+                }
+                else
+                {
+                    Console.WriteLine("A descrição não pode ficar vazia.");
+                }
+            }
         }
 
         public void mostrarCadastro()
@@ -66,6 +82,16 @@ namespace hospital_f
                 "\nCPF: {1} " +
                 "\nEmail: {2}" +
                 "\nTelefone: {3} ", this.nome, this.cpf, this.email, this.telefone);
+        }
+        public void cuidadosPaciente()
+        {
+            Console.WriteLine("Nome: {0} " +
+                "\nCPF: {1} " +
+                "\nEmail: {2}" +
+                "\nTelefone: {3} " +
+                "\nDescrição Para Expecialista: {4}", this.nome, this.cpf, this.email, this.telefone, this.descricao);
+
+            
         }
     }
 }
